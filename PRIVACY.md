@@ -1,6 +1,6 @@
 # Privacy Policy for arx-get
 
-**Last Updated: December 31, 2024**
+**Last Updated: December 31, 2025**
 
 ## Overview
 
