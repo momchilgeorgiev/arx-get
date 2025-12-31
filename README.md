@@ -16,11 +16,19 @@ Comprehensive_Exploration_of_Synthetic_Data_Generation_A_Survey.pdf
 
 ## Installation
 
-1. Open Chrome/Brave and go to `chrome://extensions/`
-2. Enable **Developer mode** (toggle in top-right)
-3. Click **Load unpacked**
-4. Select the `arxiv-pdf-downloader` folder
-5. Done!
+### From Chrome Webstore
+
+1. Navigate to [TBD](...) (extension submitted for review on the Google Webstore)
+2. Click "Add to Chrome" or "Add to Brave"
+
+### From repo
+
+1. Download the repo
+2. Open Chrome/Brave and go to `chrome://extensions/`
+3. Enable **Developer mode** (toggle in top-right)
+4. Click **Load unpacked**
+5. Select the `arx-get` folder
+6. Done!
 
 ## Usage
 
