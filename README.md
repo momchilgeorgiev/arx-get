@@ -9,8 +9,6 @@ When you download a paper from arXiv, you get a file like:
 2401.02524v2.pdf
 ```
 
-## The Solution
-
 With **arx-get**, you get:
 ```
 Comprehensive_Exploration_of_Synthetic_Data_Generation_A_Survey.pdf
