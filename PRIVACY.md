@@ -58,16 +58,11 @@ These permissions are used **only** for the extension's core functionality and n
 You have the right to:
 - Clear your stored preference at any time by uninstalling the extension
 - Use the extension without creating an account
-- Access the source code (available on request)
-
+- Access the source code
+  
 ## Changes to This Policy
 
 If we make changes to this privacy policy, we will update the "Last Updated" date at the top of this document.
-
-## Contact
-
-If you have questions about this privacy policy, please contact:
-[Your Email Address]
 
 ## Data Deletion
 
