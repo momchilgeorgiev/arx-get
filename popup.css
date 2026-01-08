@@ -23,6 +23,12 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #333;
+}
+
 .settings {
   margin-bottom: 16px;
 }
@@ -79,6 +85,94 @@ select:focus {
 .download-button:disabled {
   background: #ccc;
   cursor: not-allowed;
+}
+
+.bulk-section {
+  margin-top: 18px;
+}
+
+.bulk-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  gap: 12px;
+}
+
+.count {
+  font-size: 11px;
+  color: #777;
+  font-weight: 500;
+}
+
+.link-button {
+  border: none;
+  background: none;
+  color: #357ABD;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+}
+
+.link-button:disabled {
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+.paper-list {
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #e4e4e4;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.paper-item {
+  display: flex;
+  gap: 8px;
+  padding: 8px 10px;
+  border-bottom: 1px solid #f0f0f0;
+  align-items: flex-start;
+}
+
+.paper-item:last-child {
+  border-bottom: none;
+}
+
+.paper-item input {
+  margin-top: 2px;
+}
+
+.paper-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.paper-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #333;
+}
+
+.paper-meta {
+  font-size: 11px;
+  color: #777;
+}
+
+.empty-state {
+  padding: 12px 8px;
+  font-size: 12px;
+  color: #777;
+  text-align: center;
+}
+
+.bulk-actions {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 .status {

@@ -6,10 +6,12 @@
   "permissions": [
     "activeTab",
     "downloads",
-    "storage"
+    "storage",
+    "tabs"
   ],
   "host_permissions": [
-    "https://arxiv.org/*"
+    "https://arxiv.org/*",
+    "https://scholar.google.com/*"
   ],
   "action": {
     "default_popup": "popup.html",
@@ -23,7 +25,8 @@
     {
       "matches": [
         "https://arxiv.org/abs/*",
-        "https://arxiv.org/pdf/*"
+        "https://arxiv.org/pdf/*",
+        "https://scholar.google.com/*"
       ],
       "js": ["content.js"]
     }

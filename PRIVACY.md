@@ -1,6 +1,6 @@
 # Privacy Policy for arx-get
 
-**Last Updated: December 31, 2025**
+**Last Updated: December 31, 2024**
 
 ## Overview
 
@@ -40,9 +40,11 @@ The single piece of data we store (your whitespace preference) is used solely to
 arx-get requires the following permissions:
 
 - **activeTab**: To read the current arXiv page URL and identify which paper you're viewing
+- **tabs**: To list open arXiv tabs for bulk downloads
 - **downloads**: To download PDF files with custom filenames
 - **storage**: To save your whitespace preference locally
 - **host permission (arxiv.org)**: To extract paper titles from arXiv pages
+- **content access (scholar.google.com)**: To read Google Scholar result pages and find arXiv links
 
 These permissions are used **only** for the extension's core functionality and nothing else.
 
@@ -58,11 +60,16 @@ These permissions are used **only** for the extension's core functionality and n
 You have the right to:
 - Clear your stored preference at any time by uninstalling the extension
 - Use the extension without creating an account
-- Access the source code
-  
+- Access the source code (available on request)
+
 ## Changes to This Policy
 
 If we make changes to this privacy policy, we will update the "Last Updated" date at the top of this document.
+
+## Contact
+
+If you have questions about this privacy policy, please contact:
+[Your Email Address]
 
 ## Data Deletion
 

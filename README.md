@@ -9,6 +9,8 @@ When you download a paper from arXiv, you get a file like:
 2401.02524v2.pdf
 ```
 
+## The Solution
+
 With **arx-get**, you get:
 ```
 Comprehensive_Exploration_of_Synthetic_Data_Generation_A_Survey.pdf
@@ -16,19 +18,11 @@ Comprehensive_Exploration_of_Synthetic_Data_Generation_A_Survey.pdf
 
 ## Installation
 
-### From Chrome Webstore
-
-1. Navigate to [TBD](...) (extension submitted for review on the Google Webstore)
-2. Click "Add to Chrome" or "Add to Brave"
-
-### From repo
-
-1. Download the repo
-2. Open Chrome/Brave and go to `chrome://extensions/`
-3. Enable **Developer mode** (toggle in top-right)
-4. Click **Load unpacked**
-5. Select the `arx-get` folder
-6. Done!
+1. Open Chrome/Brave and go to `chrome://extensions/`
+2. Enable **Developer mode** (toggle in top-right)
+3. Click **Load unpacked**
+4. Select the `arxiv-pdf-downloader` folder
+5. Done!
 
 ## Usage
 
@@ -43,13 +37,28 @@ Comprehensive_Exploration_of_Synthetic_Data_Generation_A_Survey.pdf
    - **Hyphen**: `Paper-Title-Here.pdf`
    - **Keep spaces**: `Paper Title Here.pdf`
 
-4. Click **Download PDF**
+4. Click **Download current tab**
+
+### Bulk Downloads
+
+1. Open multiple arXiv tabs (abstract or PDF pages)
+2. Click the **arx-get** extension icon
+3. Use the checklist to select papers and click **Download selected**
+4. Use **Select all** to grab everything at once
+
+### Google Scholar
+
+1. Open a Google Scholar results page that includes arXiv links
+2. Click the **arx-get** extension icon
+3. Select the papers you want and click **Download selected**
 
 Your preference is saved automatically for future downloads.
 
 ## Features
 
 - ✅ Works on both abstract and PDF pages
+- ✅ Bulk download from open arXiv tabs
+- ✅ Pulls arXiv links from Google Scholar results
 - ✅ Extracts actual paper titles from metadata
 - ✅ Customizable whitespace handling
 - ✅ Falls back to arXiv ID if title unavailable
@@ -58,7 +67,7 @@ Your preference is saved automatically for future downloads.
 ## Privacy
 
 This extension:
-- Only works on arxiv.org
+- Works on arxiv.org and Google Scholar result pages
 - Does not collect or transmit any data
 - Only stores your whitespace preference locally
 

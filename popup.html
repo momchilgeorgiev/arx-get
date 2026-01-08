@@ -20,8 +20,25 @@
     </div>
 
     <button id="download-btn" class="download-button">
-      Download PDF
+      Download current tab
     </button>
+
+    <div class="bulk-section">
+      <div class="bulk-header">
+        <h2>Available papers <span id="paper-count" class="count">(0)</span></h2>
+        <button id="select-all-btn" class="link-button" type="button">Select all</button>
+      </div>
+      <div id="paper-list" class="paper-list"></div>
+      <div id="bulk-empty" class="empty-state">
+        No open arXiv tabs found. If you're on Google Scholar, open a results page and try again.
+      </div>
+      <div class="bulk-actions">
+        <span id="selected-count" class="count">0 selected</span>
+        <button id="bulk-download-btn" class="download-button" disabled>
+          Download selected
+        </button>
+      </div>
+    </div>
 
     <div id="status" class="status"></div>
   </div>
