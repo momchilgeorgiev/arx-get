@@ -1,0 +1,59 @@
+CHROME WEB STORE - PRIVACY JUSTIFICATIONS
+
+===========================================
+SINGLE PURPOSE DESCRIPTION:
+===========================================
+This extension downloads arXiv research papers with their actual paper titles as filenames instead of numeric IDs, making downloaded papers easier to organize and identify.
+
+
+===========================================
+PERMISSION JUSTIFICATIONS:
+===========================================
+
+activeTab:
+Required to read the current arXiv page URL and extract the paper ID (e.g., "2401.02524") from abstract or PDF pages. This allows the extension to identify which paper the user wants to download.
+
+tabs:
+Required to list open arXiv tabs so users can bulk download papers. The extension only reads URLs to identify arXiv pages and does not store or transmit this data.
+
+downloads:
+Required to programmatically download PDF files with custom filenames based on the paper title. This is the core functionality of the extension - renaming downloads from numeric IDs to meaningful titles.
+
+host permission (https://arxiv.org/*):
+Required to access arXiv pages to extract paper metadata (title, ID) from the page HTML. This permission allows reading meta tags containing paper titles on abstract pages and fetching title information when users are on PDF pages.
+
+host permission (https://scholar.google.com/*):
+Required to read Google Scholar result pages to find arXiv links for bulk downloading. The extension only looks for arXiv URLs and does not collect or transmit any data.
+
+storage:
+Required to save the user's whitespace preference (underscore, hyphen, or spaces) so it persists across browser sessions. No other data is stored. This single preference is stored locally and never transmitted.
+
+remote code:
+This extension does NOT use remote code. All code is bundled with the extension package. If this justification is required, please note: "Not applicable - extension does not use remote code."
+
+
+===========================================
+DATA USAGE COMPLIANCE:
+===========================================
+
+This extension:
+- Does NOT collect any user data
+- Does NOT transmit any data to external servers
+- Does NOT track user behavior
+- Only stores one user preference (whitespace format) locally
+- Only accesses arxiv.org and scholar.google.com pages
+- Does NOT use remote code
+- Does NOT perform any analytics
+
+All data processing happens locally in the user's browser.
+
+
+===========================================
+CONTACT EMAIL INSTRUCTIONS:
+===========================================
+
+You need to:
+1. Go to the Account tab
+2. Enter your contact email
+3. Verify your email (check inbox for verification link)
+4. Then return to Privacy practices tab and fill in the justifications above

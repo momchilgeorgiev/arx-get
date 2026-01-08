@@ -1,0 +1,39 @@
+arx-get - Download arXiv PDFs with meaningful filenames
+
+Stop downloading papers with cryptic names like "2401.02524v2.pdf"
+
+arx-get automatically renames arXiv PDFs to their actual paper titles, making your research library instantly searchable and organized.
+
+FEATURES:
+• Works on both abstract and PDF pages
+• Bulk download from open arXiv tabs
+• Pulls arXiv links from Google Scholar results
+• Extracts actual paper titles from arXiv metadata
+• Customizable filename format (underscores, hyphens, or spaces)
+• Remembers your preferences
+• Fast and lightweight
+• No tracking or data collection
+
+EXAMPLE:
+Without arx-get: 2401.02524v2.pdf
+With arx-get: Attention_Is_All_You_Need.pdf
+
+HOW TO USE:
+1. Navigate to any arXiv paper
+2. Click the arx-get icon
+3. Choose your preferred whitespace format
+4. Click "Download current tab"
+
+BULK DOWNLOAD:
+1. Open multiple arXiv tabs or a Google Scholar results page
+2. Click the arx-get icon
+3. Select papers and click "Download selected"
+
+That's it! Your paper downloads with a meaningful filename.
+
+Perfect for researchers, students, and anyone who reads academic papers. Keep your downloads folder organized without manual renaming.
+
+PRIVACY:
+arx-get only reads arxiv.org and scholar.google.com pages to find papers and stores your whitespace preference locally. No data is collected or transmitted.
+
+Open source and free forever.

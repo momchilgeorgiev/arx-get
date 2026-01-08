@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arx-get</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>arx-get</h1>
+
+    <div class="settings">
+      <label for="whitespace-option">Whitespace replacement:</label>
+      <select id="whitespace-option">
+        <option value="underscore">Underscore (_)</option>
+        <option value="hyphen">Hyphen (-)</option>
+        <option value="space">Keep spaces</option>
+      </select>
+    </div>
+
+    <button id="download-btn" class="download-button">
+      Download current tab
+    </button>
+
+    <div class="bulk-section">
+      <div class="bulk-header">
+        <h2>Available papers <span id="paper-count" class="count">(0)</span></h2>
+        <button id="select-all-btn" class="link-button" type="button">Select all</button>
+      </div>
+      <div id="paper-list" class="paper-list"></div>
+      <div id="bulk-empty" class="empty-state">
+        No open arXiv tabs found. If you're on Google Scholar, open a results page and try again.
+      </div>
+      <div class="bulk-actions">
+        <span id="selected-count" class="count">0 selected</span>
+        <button id="bulk-download-btn" class="download-button" disabled>
+          Download selected
+        </button>
+      </div>
+    </div>
+
+    <div id="status" class="status"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
